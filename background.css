@@ -1,0 +1,11 @@
+
+body {
+    background-image : url("bg.jpg");
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-color:pink;
+    
+}
