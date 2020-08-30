@@ -1,0 +1,20 @@
+.sample{
+    border:4px dashed black;
+    height:200px;
+    width:50%;
+    background-color:grey;
+}
+.sample1{
+    border:4px dashed black;
+    height:300px;
+    width:500px;
+    margin-top:10px;
+    background-color:khaki;
+}
+.sample2{
+    border:4px dashed black;
+    height:100px;
+    width:auto;
+    margin-top:10px;
+    background-color:aqua;
+}
