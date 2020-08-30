@@ -1,0 +1,68 @@
+#h0{
+    border-style:solid;
+    border-width:5px 10px;
+}
+#h1{
+    border-style:dotted;
+    border-width:7px 3px 7px 3px;
+}
+#h2{
+    border-style:groove;
+    border-color:red;
+}
+#h3{
+    border-style:dashed;
+    border-color:green yellow purple; peru
+}
+#h4{
+    border-style:ridge;
+}
+#h5{
+    border-style:inset;
+}
+#h6{
+    border-style:double;
+}
+#h7{
+    border-style:outset;
+}
+#h8{
+    border-style:none;
+}
+#h9{
+    border-style:hidden;
+}
+#h10{
+    border-style:groove dashed double dotted;
+}
+#h11{
+    border-top-style:dotted;
+    border-bottom-style:solid;
+    border-right-style:dashed;
+    border-left-style:inset;
+}
+#h12{
+    border-style:dotted solid dashed;
+}
+#h13{
+    border-style:dotted solid;   
+}
+#h14{
+    border-bottom:2px dashed red;
+    background-color:greenyellow;
+    border-top:2px dotted red;
+}
+#h15{
+    background-color:lightcoral;
+    border-top:3px dashed red;
+    border-bottom:4px dashed green;
+    border-radius:13px;
+}
+#h16{
+    border-radius:3px;
+    border-style:solid;
+}
+#h17{
+    border-radius:9px;
+    border-style:solid;
+}
