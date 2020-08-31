@@ -15,17 +15,21 @@
     border:2px solid black;
     margin-top:10px;
     text-decoration:line-through;
+    vertical-align: top;
 }
 #h3{
     word-spacing:5px;
     border:2px solid palevioletred;
     margin-top:10px;
     text-decoration: overline;
+  
 }
 #h4{
     letter-spacing:0.8em;
     border:2px solid black;
     margin-top:10px;
+    line-height:35px;
+    
 }
 #h5{
     text-indent:40px;
@@ -35,6 +39,8 @@
 
 #h6{
     text-shadow:2px 2px;
+    direction:rtl;
+    unicode-bidi:bidi-override;
 }
 #h7{
     text-shadow:2px 3px green;
