@@ -1,0 +1,26 @@
+ #l1:link{
+    color:green;
+    background-color:red;
+    padding:15px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+}
+#l1:hover{
+    background-color:blue;
+    color:pink;
+}
+#l1:visited{
+    color:black;
+}
+#l2{
+    background-color:slategray;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+#l2:hover{
+    cursor:pointer;
+    color:palegreen;
+}
