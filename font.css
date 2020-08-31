@@ -1,0 +1,30 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+p{
+    font-style: italic;
+}
+h2{
+    font-size: small;
+    font-size:40px;
+}
+h3{
+    font-variant: small-caps;
+    font-size:30px;
+}
+h4{
+    font-weight: bolder;
+    font-size:30px;
+}
+h5{
+    font-family:"Sofia";
+    font-size:40px;
+}
+h6{
+    font-family: 'Sail', cursive;
+    font-size:30px;
+}
+#h0{
+    font:italic small-caps bolder 40px Georgia, sans-serif;
+}
