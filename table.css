@@ -1,0 +1,26 @@
+.tble1{
+    border:1px solid black;
+    border-radius:2px 2px 2px 2px;
+    border-collapse:collapse;
+}
+th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:10px 10px 10px 10px;
+    text-align:right;
+    vertical-align:top;
+}
+.tble1 caption{
+    caption-side:bottom;
+}
+tr:nth-child(even){
+    background:linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+}
+tr:nth-child(odd){
+    background:linear-gradient(to right,pink,aqua,white);
+}
+th:hover,td:hover{
+    background-color:black;
+    color:white;
+    opacity:0.8;
+}
