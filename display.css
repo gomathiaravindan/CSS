@@ -1,0 +1,15 @@
+.hidden{
+    display:inline;
+}
+.hidden1{
+    display:block;
+}
+.hidden2{
+    display:inline-block;
+}
+#h4{
+    visibility: hidden;
+}
+#h6{
+    display:none;
+}
