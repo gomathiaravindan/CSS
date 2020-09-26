@@ -1,0 +1,40 @@
+.container{
+  
+    border:1px solid black;
+   
+    padding:10px;
+}
+img{
+    float:left;
+}
+.container1{
+    
+    border:1px solid black;
+    overflow:auto;
+    padding:10px;
+    
+}
+.container1 img{
+   float:right;
+}
+.container2{
+  
+    border:1px solid black;
+    overflow:auto;
+    padding:10px;
+    display:table;
+}
+img{
+    float:left;
+}
+.container3{
+    
+    border:1px solid black;
+    overflow:auto;
+    padding:10px;
+    display:table;
+    
+}
+.container3 img{
+   float:right;
+}
