@@ -1,0 +1,55 @@
+a.link1:link{
+    color:blue;
+    text-decoration:none;
+}
+a:hover{
+    background-color:red;
+    color:yellow;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:black;
+}
+input:checked{
+    width:100px;
+    height:100px;
+}
+input[type="number"]:required{
+    border:3px solid red;
+}
+input[type="email"]:invalid{
+    border:3px solid red;
+}
+input[type="password"]:disabled{
+    background-color:grey;
+}
+input[type="text"]:focus{
+    background-color:green;
+}
+h2:empty{
+    background:purple;
+    border:45px solid purple;
+    border-radius:50px 32px 50px 32px;
+}
+p:first-child{
+    background:red;
+    color:pink;
+}
+p:first-of-type{
+    color:blue;
+}
+p:last-child{
+    background:black;
+    color:white;
+}
+:not(p){
+    color:green;
+}
+:root{
+    background-color:yellow;
+}
+:target{
+    background:yellowgreen;
+}
