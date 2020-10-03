@@ -1,0 +1,28 @@
+.box{
+    background-image:url("coffee.jpg");
+    border:2px solid pink;
+    height:300px;
+    margin:20px;
+}
+.inner-box{
+    border:1px solid black;
+    background-color:yellow;
+    opacity:0.5;
+    margin:70px;
+    padding:10px;
+}
+:root{
+    background:black;
+    opacity:0.8;
+}
+img:hover{
+    opacity:0.5;
+}
+#img1{
+    opacity:0.8;
+}
+#img1:hover{
+    opacity:1;
+    width:auto;
+    height:auto;
+}
