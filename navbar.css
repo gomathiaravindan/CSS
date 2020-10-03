@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul.navbar{
+    background:goldenrod;
+    position:-webkit-sticky;
+    position:sticky;
+    width:100%;
+    top:0;
+}
+li{
+    display:inline-block;
+    padding:15px 20px;
+   
+}
+li.active{
+    background:green;
+}
+li a{
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+}
+li:hover{
+    background-color:red;
+}
+.container{
+    margin-top:10px;
+    text-align:left;
+}
+@media screen and (max-width:600px)
+{
+    ul.navbar,li{
+        display:block;
+        width:100%;
+        text-align:center;
+        border-bottom:1px solid white;
+    }
+    ul.navbar{
+        background-color:darkorange;
+    }
+    ul.navbar li:hover{
+        background-color:black;
+        color:white;
+    }
+}
