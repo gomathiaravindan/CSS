@@ -1,0 +1,33 @@
+p::first-letter{
+    color:black;
+    font-size:60px;
+}
+p::after{
+    content:url("coffee.jpg");
+    width:20px;
+    height:20px;
+}
+
+p::first-line{
+    font-style:italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:red;
+    font-size:30px;
+    text-shadow:2px 3px 2px green;
+    text-transform: capitalize;
+    padding:10px;
+    margin:20px;
+    line-height: 1ex;
+    vertical-align: top;
+}
+h3::first-letter{
+    color:black;
+    font-size:60px;
+}
+h3{
+    float:right;
+}
+::selection{
+    background:black;
+    color:white;
+}
